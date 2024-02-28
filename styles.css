@@ -7,7 +7,7 @@ a:hover {
 }
 
 .bg-dark-blue {
-    background-color: #000047
+    background-color: #252A2F
 }
 
 .text-huge {
@@ -16,4 +16,22 @@ a:hover {
 
 .project-logo {
     width: 10%;
+}
+
+@media (max-width: 2560px) {
+    .full-screen {
+        min-height: 1250px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .full-screen {
+        min-height: 900px;
+    }
+}
+
+@media (max-width: 600px) {
+    .full-screen {
+        min-height: 500px;
+    }
 }

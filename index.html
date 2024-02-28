@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg bg-dark-blue position-fixed z-3 container-fluid d-flex justify-content-center">
       <div class="">
         <div class="" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 h3 ">
             <li class="nav-item">
               <a class="nav-link active hover link-light" aria-current="page" href="#">Home</a>
             </li>
@@ -32,22 +32,22 @@
       </div>
     </nav>
     <main class="bg-dark-blue pt-5 ">
-        <div class="container-fluid d-flex flex-column pt-5 pb-5">
-            <div class="container-fluid d-flex flex-row justify-content-evenly ">
+        <div class="container-fluid d-flex flex-column p-5 full-screen justify-content-center ">
+            <div class="container-fluid d-flex flex-row justify-content-evenly px-5">
               <div class="w-50 d-flex flex-column justify-content-center ">
                 <h1 class="text-white text-huge">Kiowe Smith</h1>
                 <h1 class="text-white">Software Engineer</h1>
               </div>
               <div class="w-25">
-                <p class="text-white text-wrap">Elevator Pitch Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="text-white text-wrap fs-3">A front-end developer with a passion for learning. Based in Pembroke, MA, USA. I have developed many projects ranging from games made from scratch to song writing assistants. However, my passion will always be web development, building and collaborating on countless web projects at work and at home.</p>
               </div>
             </div>
         </div>  
 
-        <div id="projects" class="d-flex flex-column justify-content-center ">
-          <h1 class="text-white m-auto pb-5 ">Projects</h1>
+        <div id="projects" class="d-flex flex-column justify-content-center full-screen">
+          <h1 class="text-white mx-auto pb-5">Projects</h1>
           <div class="d-flex flex-row justify-content-evenly">
-            <div class="card" style="width: 18rem;">
+            <div class="card w-25">
               <img src="https://image.api.playstation.com/vulcan/ap/rnd/202110/2019/aDSOgerXg4V6sf5A7VzHiTun.jpg" class="card-img-top" alt="...">
               <div class="card-body d-flex flex-column ">
                 <h5 class="card-title">Pawblr</h5>
@@ -55,7 +55,7 @@
                 <a href="pawblr.html" class="btn btn-warning ">Explore Project</a>
               </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card w-25" >
               <img src="https://image.api.playstation.com/vulcan/ap/rnd/202110/2019/aDSOgerXg4V6sf5A7VzHiTun.jpg" class="card-img-top" alt="...">
               <div class="card-body d-flex flex-column ">
                 <h5 class="card-title">Travel Site</h5>
@@ -63,7 +63,7 @@
                 <a href="#" class="btn btn-warning ">Explore Project</a>
               </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card w-25" >
               <img src="https://image.api.playstation.com/vulcan/ap/rnd/202110/2019/aDSOgerXg4V6sf5A7VzHiTun.jpg" class="card-img-top" alt="...">
               <div class="card-body d-flex flex-column ">
                 <h5 class="card-title">Movie Site</h5>
@@ -74,21 +74,29 @@
           </div>
         </div>
         
-        <div id="experience" class="d-flex flex-column justify-content-center">
-          <h1 class="text-white m-auto py-5">Experience</h1>
+        <div id="experience" class="d-flex flex-column justify-content-center full-screen">
+          <h1 class="text-white mx-auto pb-5">Experience</h1>
           <div class="d-flex flex-row justify-content-evenly">
             <div class="d-flex flex-column justify-content-evenly text-white">
               <div class="py-5">
-                <h2>Software Engineer</h2>
+                <h2 class="text-decoration-underline ">Software Engineer</h2>
                 <h2>Lincoln Financial Group</h2>
                 <h2>June 2021 - June 2023</h2>
-                <p>what I did bullet points</p>
+                <ul class="fs-5">
+                  <li>Designed dynamic web apps using React.js, boosting audience engagement by 12%</li>
+                  <li>Spearheaded backend development with Java (Spring Framework), elevating user satisfaction by 31%</li>
+                  <li>Effectively resolved production issues, showcasing prompt troubleshooting skills</li>
+                </ul>
               </div>
               <div>
-                <h2>Code Coach</h2>
+                <h2 class="text-decoration-underline">Code Coach</h2>
                 <h2>TheCoderSchool</h2>
                 <h2>October 2019 - April 2020</h2>
-                <p>what I did</p>
+                <ul class="fs-5">
+                  <li>Delivered engaging programming instruction to children aged 6-17</li>
+                  <li>Taught languages like Scratch, Python, and Java.</li>
+                  <li>Developed creative lesson plans, making coding accessible and enjoyable for students</li>
+                </ul>
               </div>
             </div>
             <div class="d-flex flex-row justify-content-center w-25">
@@ -99,11 +107,13 @@
           </div>
         </div>
 
-        <div id="about" class="d-flex flex-column justify-content-center ">
-          <h1 class="text-white m-auto py-5">About Me</h1>
-          <div class="d-flex flex-row justify-content-evenly ">
-            <div class="w-50 p-5">
-              <p class="text-white text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div id="about" class="d-flex flex-column justify-content-center full-screen px-5">
+          <h1 class="text-white mx-auto pb-5">About Me</h1>
+          <div class="d-flex flex-row justify-content-evenly px-5">
+            <div class="w-50 p-5 d-flex flex-column">
+              <p class="text-white text-wrap fs-4">Based in Pembroke, Massachusetts, I hold a Bachelor's degree in Computer Science and an MBA in International Business from St. John's University. My journey in coding began at the age of 13, crafting Java games from scratch, igniting a passion that has thrived ever since. Throughout college, I leveraged my expertise to aid fellow students as a Computer Science tutor, refining my skills and fostering a collaborative spirit.</p>
+              <p class="text-white text-wrap fs-4">My transition towards web development took root during this time, culminating in an enriching internship at Lincoln Financial Group as a front-end engineer. Evolving within the company, I seamlessly transitioned to backend technologies, independently spearheading full-stack projects that showcased my adaptability and initiative.</p>
+              <p class="text-white text-wrap fs-4">Driven by a perpetual quest for growth and innovation, I am now poised to leverage my multifaceted experience and expertise in pursuit of new opportunities within the realm of technology.</p>
             </div>
             <div class="w-50 d-flex flex-row justify-content-evenly">
               <div class="d-flex flex-column justify-content-center">
