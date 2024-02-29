@@ -6,7 +6,7 @@ a:hover {
     font-weight: bold;
 }
 
-.bg-dark-blue {
+.bg-dark-gray {
     background-color: #252A2F
 }
 
@@ -18,13 +18,25 @@ a:hover {
     width: 10%;
 }
 
+.bg-color-pearl {
+    background-color: #e9dfc9;
+}
+
+.bg-color-vampire {
+    background-color: #0b0a08;
+}
+
+.border-vampire {
+    border-color: #0b0a08;
+}
+
 @media (max-width: 2560px) {
     .full-screen {
         min-height: 1250px;
     }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1920px) {
     .full-screen {
         min-height: 900px;
     }
