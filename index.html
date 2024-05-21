@@ -10,7 +10,7 @@
     <link rel="icon" href="res/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body class="bg-color-vampire">
     <nav class="navbar navbar-expand-lg bg-color-vampire position-fixed z-3 container-fluid d-flex justify-content-center">
       <div class="">
         <div class="" id="navbarSupportedContent">
@@ -33,12 +33,12 @@
     </nav>
     <main class="bg-color-vampire pt-5 ">
         <div class="container-fluid d-flex flex-column p-5 full-screen justify-content-center ">
-            <div class="container-fluid d-flex flex-row justify-content-evenly px-5">
+            <div class="container-fluid d-flex flex-column flex-md-row justify-content-evenly px-0 px-md-5 mobile-margin">
               <div class="w-50 d-flex flex-column justify-content-center ">
                 <h1 class="text-huge" style="color: #e9dfc9">Kiowe Smith</h1>
                 <h1 class="text-white">Software Engineer</h1>
               </div>
-              <div class="w-50">
+              <div class="w-md-50">
                 <p class="text-white text-wrap fs-3">A front-end developer with a passion for learning. Based in Pembroke, MA, USA. I have developed many projects ranging from games made from scratch to song writing assistants. However, my passion will always be web development, building and collaborating on countless web projects at work and at home.</p>
               </div>
             </div>
@@ -46,43 +46,56 @@
 
         <div id="projects" class="d-flex flex-column justify-content-center full-screen">
           <h1 class="text-white mx-auto pb-5">Projects</h1>
-          <div class="d-flex flex-row justify-content-evenly">
-            <div class="card w-25 border-vampire border-5">
+          <div class="d-flex flex-column align-items-center  flex-md-row justify-content-md-evenly mb-5">
+            <div class="card w-md-25 border-vampire border-5">
               <a href="pawblr.html">
                 <img src="res/pawblr-pic.png" class="card-img-top" alt="...">
               </a>
-              <div class="card-body d-flex flex-column ">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Pawblr</h5>
                 <p class="card-text">An animal blog made using React.js and Express.js with a custom REST API.</p>
                 <a href="pawblr.html" class="btn bg-color-pearl">Explore Project</a>
               </div>
             </div>
-            <div class="card w-25 border-vampire border-5" >
-              <a href="movie.html">
-                <img src="res/movie-pic.png" class="card-img-top" alt="...">
+            <div class="card w-md-25 border-vampire border-5" >
+              <a href="dind.html">
+                <img src="res/homepage.PNG" class="card-img-top" alt="...">
               </a>
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Gold Movies</h5>
-                <p class="card-text">A movie site made using React.js and Spring Framework with a custom REST API.</p>
-                <a href="movie.html" class="btn bg-color-pearl">Explore Project</a>
-              </div>
-            </div>
-            <div class="card w-25 border-vampire border-5" >
-              <a href="travel.html">
-                <img src="res/travel-pic.png" class="card-img-top" alt="...">
-              </a>
-              <div class="card-body d-flex flex-column ">
-                <h5 class="card-title">Hilink</h5>
-                <p class="card-text">A travel site made using Next.js, React.js and Tailwind CSS.</p>
-                <a href="travel.html" class="btn bg-color-pearl ">Explore Project</a>
+                <h5 class="card-title">Delicious in Dungeon</h5>
+                <p class="card-text">A website for my favorite new anime using React, Typescript, and Tailwind.</p>
+                <a href="dind.html" class="btn bg-color-pearl">Explore Project</a>
               </div>
             </div>
           </div>
+
+            <div class="d-flex flex-column align-items-center  flex-md-row justify-content-md-evenly ">
+              <div class="card w-md-25 border-vampire border-5" >
+                <a href="movie.html">
+                  <img src="res/movie-pic.png" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Gold Movies</h5>
+                  <p class="card-text">A movie site made using React.js and Spring Framework with a custom REST API.</p>
+                  <a href="movie.html" class="btn bg-color-pearl">Explore Project</a>
+                </div>
+              </div>
+              <div class="card w-md-25 border-vampire border-5" >
+                <a href="travel.html">
+                  <img src="res/travel-pic.png" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body d-flex flex-column ">
+                  <h5 class="card-title">Hilink</h5>
+                  <p class="card-text">A travel site made using Next.js, React.js and Tailwind CSS.</p>
+                  <a href="travel.html" class="btn bg-color-pearl ">Explore Project</a>
+                </div>
+              </div>
+            </div>
         </div>
         
         <div id="experience" class="d-flex flex-column justify-content-center full-screen">
           <h1 class="text-white mx-auto pb-5">Experience</h1>
-          <div class="d-flex flex-row justify-content-evenly">
+          <div class="d-flex flex-column flex-md-row align-items-center justify-content-md-evenly">
             <div class="d-flex flex-column justify-content-evenly text-white">
               <div class="py-5">
                 <h2 class="text-decoration-underline">Software Engineer</h2>
@@ -105,9 +118,15 @@
                 </ul>
               </div>
             </div>
+<<<<<<< HEAD
             <div class="d-flex flex-column justify-content-center w-25">
               <a class="" href="https://docs.google.com/document/d/10hb7boi8qo0AEN8t6GIque_W3zVqpcLJK3y-v3RLz_M/edit?usp=sharing" target="_blank">
                 <img class="w-100" src="./res/resume sc.png" /> 
+=======
+            <div class="d-flex flex-column justify-content-center w-md-25">
+              <a class="" href="https://drive.google.com/file/d/1WLWy4F_BSUaD7xHztpQo28Gcy9NgP8ct/view?usp=sharing" target="_blank">
+                <img class="w-100" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYxriMrCwwPaR24IP-n5m2DdvZCBUcXL2IGV5YWcDi0KC-tcPtirv5Mc1vCQl2ug7kziDdGol6y1_uXTkPUp3IZ9Au8=s1600" /> 
+>>>>>>> 51c507f906e5855c71f8aaca8f22d9d37fd4f546
               </a>
               <a href="https://docs.google.com/document/d/10hb7boi8qo0AEN8t6GIque_W3zVqpcLJK3y-v3RLz_M/edit?usp=sharing" target="_blank" class="btn bg-color-pearl mt-3">Download My Resume</a>
             </div>
@@ -116,18 +135,18 @@
 
         <div id="about" class="d-flex flex-column justify-content-center full-screen px-5">
           <h1 class="text-white mx-auto pb-5">About Me</h1>
-          <div class="d-flex flex-row justify-content-evenly px-5">
-            <div class="w-50 p-5 d-flex flex-column">
+          <div class="d-flex flex-column-reverse flex-md-row justify-content-evenly px-5">
+            <div class="w-md-50 p-md-5 d-flex flex-column">
               <p class="text-white text-wrap fs-4">Based in Pembroke, Massachusetts, I hold a Bachelor's degree in Computer Science and an MBA in International Business from St. John's University. My journey in coding began at the age of 13, crafting Java games from scratch, igniting a passion that has thrived ever since. Throughout college, I leveraged my expertise to aid fellow students as a Computer Science tutor, refining my skills and fostering a collaborative spirit.</p>
               <p class="text-white text-wrap fs-4">My transition towards web development took root during this time, culminating in an enriching internship at Lincoln Financial Group as a front-end engineer. Evolving within the company, I seamlessly transitioned to backend technologies, independently spearheading full-stack projects that showcased my adaptability and initiative.</p>
               <p class="text-white text-wrap fs-4">Driven by a perpetual quest for growth and innovation, I am now poised to leverage my multifaceted experience and expertise in pursuit of new opportunities within the realm of technology.</p>
             </div>
 
-            <div class="w-50 d-flex flex-column justify-content-start ">
+            <div class="w-50 d-flex flex-column justify-content-start">
               <h2 class="text-white mx-auto pb-1">Contact Me</h2>
                 <i class="fa fa-envelope text-white mx-auto" style="font-size:128px"></i>
                 <p class="text-white active hover text-decoration-none fs-3 mx-auto mb-5">kiowesmith@gmail.com</p>
-              <div class=" d-flex flex-row justify-content-evenly">
+              <div class=" d-flex flex-row justify-content-between justify-content-md-evenly  ">
                 <div class="d-flex flex-column justify-content-center">
                   <a class="" href="https://www.linkedin.com/in/kiowe-smith/" target="_blank">
                     <i class="fa fa-linkedin-square text-white" style="font-size:128px"></i>

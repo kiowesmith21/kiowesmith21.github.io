@@ -30,6 +30,25 @@ a:hover {
     border-color: #0b0a08;
 }
 
+@media (max-width: 600px) {
+    .mobile-margin {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 600px) { /*for medium screens and up take up half space*/
+    .w-md-50 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+    .w-md-25 {
+        width: 25%;
+    }
+}
+
+
 @media (max-width: 2560px) {
     .full-screen {
         min-height: 1250px;
