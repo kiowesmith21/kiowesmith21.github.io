@@ -30,6 +30,15 @@ a:hover {
     border-color: #0b0a08;
 }
 
+@media (min-width: 600px) { 
+    .bg-image {
+        background-image: url('/res/hero-image.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+    }
+}
+
 @media (max-width: 600px) {
     .mobile-margin {
         margin-top: 100px;
