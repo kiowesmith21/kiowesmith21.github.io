@@ -30,6 +30,10 @@ a:hover {
     border-color: #0b0a08;
 }
 
+.text-pearl {
+    color: #e9dfc9;
+}
+
 @media (min-width: 600px) { 
     .bg-image {
         background-image: url('/res/hero-image.jpg');
