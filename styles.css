@@ -22,8 +22,24 @@ a:hover {
     background-color: #e9dfc9;
 }
 
+.border-pearl {
+    border-color: #e9dfc9;
+}
+
 .bg-color-vampire {
     background-color: #0b0a08;
+}
+
+.bg-color-white {
+    background-color: #ffffff;
+}
+
+.bg-color-purple {
+    background-color: #7337ffea;
+}
+
+.border-purple {
+    border-color: #7337ffea;
 }
 
 .border-vampire {
@@ -34,11 +50,19 @@ a:hover {
     color: #e9dfc9;
 }
 
-@media (min-width: 600px) { 
-    .bg-image {
-        background-image: url('/res/hero-image.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
+.text-purple {
+    color: #7337ffea
+}
+
+@media (min-width: 100px) { 
+    .my-image {
+        height: auto;
+    }
+}
+
+@media (min-width: 300px) { 
+    .my-logo {
+        max-width: 100px;
         height: auto;
     }
 }
