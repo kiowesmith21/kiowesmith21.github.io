@@ -10,44 +10,84 @@
     <link rel="icon" href="res/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body class="bg-color-vampire">
-    <nav class="navbar navbar-expand-lg bg-color-vampire position-fixed z-3 container-fluid d-flex justify-content-center">
+  <body class="bg-color-white">
+    <nav class="navbar navbar-expand-lg bg-color-pearl position-fixed z-3 container-fluid d-flex justify-content-center">
       <div class="">
         <div class="" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 h3 ">
             <li class="nav-item">
-              <a class="nav-link active hover link-light" aria-current="page" href="#">Home</a>
+              <a class="nav-link active hover link-light text-black" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active hover link-light" aria-current="page" href="#projects">Projects</a>
+              <a class="nav-link link-light text-black" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light" href="#experience">Experience</a>
+              <a class="nav-link active hover link-light text-black" aria-current="page" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light" href="#about">About</a>
+              <a class="nav-link link-light text-black" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main class="bg-color-vampire pt-5 ">
+    <main class="bg-color-white pt-5 ">
       <!-- Hero -->
-      <div class="p-5 text-center bg-image rounded-3 full-screen d-flex justify-content-center pt-5">
-        <div class="mask w-50 h-25 text-center m-5" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="p-5 text-center rounded-3 full-screen d-flex justify-content-center pt-5">
           <div class="container-fluid d-flex flex-column flex-md-row justify-content-evenly px-0 px-md-5 mobile-margin">
             <div class="w-100 d-flex flex-column justify-content-center">
-              <h1 class="text-huge" style="color: #e9dfc9">Kiowe Smith</h1>
-              <h1 class="text-white">Software Engineer | Web Developer | MBA</h1>
+              <div class="w-100 d-flex justify-content-center">
+                <img class="my-image" src="/res/avatar.png" alt="">
+              </div>
+              <h1 class="text-huge text-black">Kiowe Smith</h1>
+              <h1 class="text-black">Full-Stack Web Developer</h1>
+            </div>
+          </div>
+      </div>
+
+      <div id="about" class="d-flex flex-column justify-content-center full-screen">
+        <h1 class="text-black mx-auto pb-5">About Me</h1>
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-md-center">
+          <div class="d-flex flex-column flex-md-row justify-content-center w-75">
+            <div class="d-flex flex-column justify-content-evenly border border-1 rounded border-color-pearl p-5 w-md-50">
+              <div class="w-100 d-flex justify-content-center">
+                <img class="my-logo" src="/res/front-logo.png" alt="">
+              </div>
+              <h1 class="text-black mx-auto p-4" >Front-End</h1>
+              <h3 class="text-black mx-auto pb-1" >Languages and Frameworks</h3>
+              <h5 class="text-black mx-auto" >HTML & CSS</h5>
+              <h5 class="text-black mx-auto" >JavaScript</h5>
+              <h5 class="text-black mx-auto" >Typescript</h5>
+              <h5 class="text-black mx-auto" >React</h5>
+              <h5 class="text-black mx-auto" >Next.js</h5>
+              <h5 class="text-black mx-auto" >Bootstrap 5</h5>
+              <h5 class="text-black mx-auto" >Tailwind CSS</h5>
+            </div>
+            <div class="d-flex flex-column justify-content-evenly border border-1 rounded border-color-pearl p-5 w-md-50">
+              <div class="w-100 d-flex justify-content-center">
+                <img class="my-logo" src="/res/back-logo.png" alt="">
+              </div>
+              <h1 class="text-black mx-auto p-4" >Back-End</h1>
+              <h3 class="text-black mx-auto pb-1" >Languages and Frameworks</h3>
+              <h5 class="text-black mx-auto" >Java</h5>
+              <h5 class="text-black mx-auto" >Python</h5>
+              <h5 class="text-black mx-auto" >Node.js</h5>
+              <h5 class="text-black mx-auto" >Express</h5>
+              <h5 class="text-black mx-auto" >Mongoose</h5>
+              <h5 class="text-black mx-auto" >MongoDB</h5>
+              <h5 class="text-black mx-auto" >GraphQL</h5>
+              <h5 class="text-black mx-auto" >Spring</h5>
+              <h5 class="text-black mx-auto" >Docker</h5>
+              <h5 class="text-black mx-auto" >Git</h5>
             </div>
           </div>
         </div>
       </div>
 
         <div id="projects" class="d-flex flex-column justify-content-center full-screen">
-          <h1 class="text-white mx-auto pb-5" >Projects</h1>
+          <h1 class="text-black mx-auto pb-5" >Projects</h1>
           <div class="d-flex flex-column align-items-center  flex-md-row justify-content-md-evenly mb-5">
-            <div class="card w-md-25 border-vampire border-5">
+            <div class="card w-md-25 border-pearl border-5">
               <a href="pawblr.html">
                 <img src="res/pawblr-pic.png" class="card-img-top" alt="...">
               </a>
@@ -57,7 +97,7 @@
                 <a href="pawblr.html" class="btn bg-color-pearl">Explore Project</a>
               </div>
             </div>
-            <div class="card w-md-25 border-vampire border-5" >
+            <div class="card w-md-25 border-pearl border-5" >
               <a href="dind.html">
                 <img src="res/homepage.PNG" class="card-img-top" alt="...">
               </a>
@@ -70,7 +110,7 @@
           </div>
 
             <div class="d-flex flex-column align-items-center  flex-md-row justify-content-md-evenly">
-              <div class="card w-md-25 border-vampire border-5" >
+              <div class="card w-md-25 border-pearl border-5" >
                 <a href="movie.html">
                   <img src="res/movie-pic.png" class="card-img-top" alt="...">
                 </a>
@@ -80,7 +120,7 @@
                   <a href="movie.html" class="btn bg-color-pearl">Explore Project</a>
                 </div>
               </div>
-              <div class="card w-md-25 border-vampire border-5" >
+              <div class="card w-md-25 border-pearl border-5" >
                 <a href="travel.html">
                   <img src="res/travel-pic.png" class="card-img-top" alt="...">
                 </a>
@@ -92,66 +132,25 @@
               </div>
             </div>
         </div>
-        
-        <div id="experience" class="d-flex flex-column justify-content-center full-screen">
-          <h1 class="text-white mx-auto pb-5">Experience</h1>
-          <div class="d-flex flex-column flex-md-row align-items-center justify-content-md-evenly">
-            <div class="d-flex flex-column justify-content-evenly text-white border border-5 border-color-pearl p-5">
-              <div class="py-5">
-                <h2 class="text-decoration-underline text-pearl">Software Engineer</h2>
-                <h2>Lincoln Financial Group</h2>
-                <h2>June 2021 - June 2023</h2>
-                <ul class="fs-5">
-                  <li>Designed dynamic web apps using React.js, boosting audience engagement by 12%</li>
-                  <li>Spearheaded backend development with Java (Spring Framework), elevating user satisfaction by 31%</li>
-                  <li>Effectively resolved production issues, showcasing prompt troubleshooting skills</li>
-                </ul>
-              </div>
-              <div>
-                <h2 class="text-decoration-underline text-pearl">Code Coach</h2>
-                <h2>TheCoderSchool</h2>
-                <h2>October 2019 - April 2020</h2>
-                <ul class="fs-5">
-                  <li>Delivered engaging programming instruction to children aged 6-17</li>
-                  <li>Taught languages like Scratch, Python, and Java.</li>
-                  <li>Developed creative lesson plans, making coding accessible and enjoyable for students</li>
-                </ul>
-              </div>
-            </div>
-            <div class="d-flex flex-column justify-content-center w-25">
-              <a class="" href="https://docs.google.com/document/d/10hb7boi8qo0AEN8t6GIque_W3zVqpcLJK3y-v3RLz_M/edit?usp=sharing" target="_blank">
-                <img class="w-100" src="./res//resume sc.png" /> 
-              </a>
-              <a href="https://docs.google.com/document/d/10hb7boi8qo0AEN8t6GIque_W3zVqpcLJK3y-v3RLz_M/edit?usp=sharing" target="_blank" class="btn bg-color-pearl mt-3">Download My Resume</a>
-            </div>
-          </div>
-        </div>
  
-        <div id="about" class="d-flex flex-column justify-content-center full-screen px-5">
-          <h1 class="text-white mx-auto pb-5">About Me</h1>
+        <div id="contact" class="d-flex flex-column justify-content-center full-screen px-5">
+          <h1 class="text-black mx-auto pb-5">Contact Me</h1>
           <div class="d-flex flex-column-reverse flex-md-row justify-content-evenly border border-5 p-5">
-            <div class="w-md-50 p-md-5 d-flex flex-column">
-              <p class="text-white text-wrap fs-4">Based in Pembroke, Massachusetts, I hold a Bachelor's degree in Computer Science and an MBA in International Business from St. John's University. My journey in coding began at the age of 13, crafting Java games from scratch, igniting a passion that has thrived ever since. Throughout college, I leveraged my expertise to aid fellow students as a Computer Science tutor, refining my skills and fostering a collaborative spirit.</p>
-              <p class="text-white text-wrap fs-4">My transition towards web development took root during this time, culminating in an enriching internship at Lincoln Financial Group as a front-end engineer. Evolving within the company, I seamlessly transitioned to backend technologies, independently spearheading full-stack projects that showcased my adaptability and initiative.</p>
-              <p class="text-white text-wrap fs-4">Driven by a perpetual quest for growth and innovation, I am now poised to leverage my multifaceted experience and expertise in pursuit of new opportunities within the realm of technology.</p>
-            </div>
-
             <div class="w-50 d-flex flex-column justify-content-start">
-              <h2 class="text-white mx-auto pb-1">Contact Me</h2>
-                <i class="fa fa-envelope text-white mx-auto" style="font-size:128px"></i>
-                <p class="text-white active hover text-decoration-none fs-3 mx-auto mb-5">kiowesmith@gmail.com</p>
+                <i class="fa fa-envelope text-black mx-auto" style="font-size:128px"></i>
+                <p class="text-black active hover text-decoration-none fs-3 mx-auto mb-5">kiowesmith@gmail.com</p>
               <div class=" d-flex flex-row justify-content-between justify-content-md-evenly  ">
                 <div class="d-flex flex-column justify-content-center">
                   <a class="" href="https://www.linkedin.com/in/kiowe-smith/" target="_blank">
-                    <i class="fa fa-linkedin-square text-white" style="font-size:128px"></i>
+                    <i class="fa fa-linkedin-square text-black" style="font-size:128px"></i>
                   </a>
-                  <a class="text-white active hover text-decoration-none fs-1" href="https://www.linkedin.com/in/kiowe-smith/">LinkedIn</a>
+                  <a class="text-black active hover text-decoration-none fs-1" href="https://www.linkedin.com/in/kiowe-smith/">LinkedIn</a>
                 </div>
                 <div class="d-flex flex-column justify-content-center">
                   <a class="" href="https://github.com/kiowesmith21" target="_blank">
-                    <i class="fa fa-github text-white" style="font-size:128px"></i>
+                    <i class="fa fa-github text-black" style="font-size:128px"></i>
                   </a>
-                  <a class="text-white active hover text-decoration-none fs-1" href="https://github.com/kiowesmith21">Github</a>
+                  <a class="text-black active hover text-decoration-none fs-1" href="https://github.com/kiowesmith21">Github</a>
                 </div>
               </div>
             </div>
